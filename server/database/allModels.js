@@ -1,5 +1,5 @@
 import { FoodModel } from "./food";
-import { ImageModel } from "./image";
+import { ImageModel } from "./images";
 import { MenuModel } from "./menu";
 import { OrderModel } from "./order";
 import { ResturantModel } from "./resturant";
