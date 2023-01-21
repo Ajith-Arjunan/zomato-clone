@@ -8,7 +8,8 @@
 - Review (store all the review details)
 - user (user details username, email, pass)
 
-JWT - Json Web Token
+# JWT - Json Web Token
+
 Session Based Application
 
 > tokens
@@ -18,3 +19,8 @@ Session Based Application
 > instead while making the request the generated JWT joken will be sent to the server
 > JWT will be stored in the client/end user pc (cookies,localstorage)
 > JWT also have expiration, it depends on business perspective
+
+# Hash & Salting
+
+- OG password => Hashed Password => salt(5) => OG Password 5X Hash
+- og@pass => hash() => ogqw!pwss => salt(5) => weknkj24njfsd^%7jh
